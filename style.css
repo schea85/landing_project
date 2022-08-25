@@ -66,7 +66,7 @@ a {
     background-color: rgb(136, 135, 135);
     color: white;
     border: white solid 2px;
-    padding-left: 5px;
+    align-text: center;
     font-size: 18px;
 }
 
@@ -86,9 +86,10 @@ button {
     display: flex;
     background-color: #3882f6;
     color: white;
+    border: white solid 2px;
     border-radius: 5px;
     align-content: center;
-    
+    padding: 5px 20px;
 }
 
 .info-text {
@@ -146,13 +147,39 @@ img {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
+    font-weight: 100;
 }
 
 .author {
     text-align: right;
     padding: 0 100px;
     padding-bottom: 50px;
+    font-weight: 700;
 }
+
+.container4 {
+    background-color:#3882f6;
+    color: white;
+    border: pink solid 3px;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left2 {
+    border: green solid 3px;
+
+}
+
+.right2 {
+    display: green solid 3px;
+    
+}
+
+
 
 .footer {
     background-color: #1f2937;
