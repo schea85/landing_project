@@ -130,7 +130,28 @@ img {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    border: purple solid 3px;
     
+}
+
+.quote {
+    border: orange solid 3px;
+    text-align: left;
+    padding: 100px;
+    padding-bottom: 0;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    padding: 0 100px;
+    padding-bottom: 50px;
 }
 
 .footer {
